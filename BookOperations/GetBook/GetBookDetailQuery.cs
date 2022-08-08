@@ -1,5 +1,6 @@
 using System;
 using System.Linq;
+using AutoMapper;
 using webApi.Common;
 using webApi.DBOperations;
 
@@ -10,10 +11,12 @@ namespace WebApi.BookOperations.CreateBook
     {
     
         private readonly BookStoreDbContext _dbContext;
+        private readonly IMapper _mapper;
         public int BookId{get;set;}
-        public GetBookDetailQuery(BookStoreDbContext dbContext)
+        public GetBookDetailQuery(BookStoreDbContext dbContext , IMapper mapper)
         {
             _dbContext = dbContext;
+            _mapper = mapper;
         }
 
         public BookDetailViewModel Handle()
@@ -22,11 +25,11 @@ namespace WebApi.BookOperations.CreateBook
         if(book is null){
             throw new InvalidOperationException("The book is not exist");
         }
-        BookDetailViewModel vm = new BookDetailViewModel();
-        vm.Title = book.Title;
-        vm.PageCount = book.PageCount;
-        vm.Genre = ((GenreEnum)book.GenreId).ToString();
-        vm.PublishDate = book.PublishDate.Date.ToString("dd/MM/yyyy");
+        BookDetailViewModel vm = _mapper.Map<BookDetailViewModel>(book);//new BookDetailViewModel();
+        // vm.Title = book.Title;
+        // vm.PageCount = book.PageCount;
+        // vm.Genre = ((GenreEnum)book.GenreId).ToString();
+        // vm.PublishDate = book.PublishDate.Date.ToString("dd/MM/yyyy");
 
         
         return vm;
