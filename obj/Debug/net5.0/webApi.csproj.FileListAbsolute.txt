@@ -34,3 +34,4 @@ C:\Users\GSI\Desktop\BookStore\webApi\bin\Debug\net5.0\Microsoft.Extensions.Depe
 C:\Users\GSI\Desktop\BookStore\webApi\bin\Debug\net5.0\System.Diagnostics.DiagnosticSource.dll
 C:\Users\GSI\Desktop\BookStore\webApi\bin\Debug\net5.0\AutoMapper.dll
 C:\Users\GSI\Desktop\BookStore\webApi\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
+C:\Users\GSI\Desktop\BookStore\webApi\bin\Debug\net5.0\FluentValidation.dll
