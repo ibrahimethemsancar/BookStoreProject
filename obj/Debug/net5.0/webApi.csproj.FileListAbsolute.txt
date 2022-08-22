@@ -5,7 +5,6 @@ C:\Users\GSI\Desktop\BookStore\webApi\bin\Debug\net5.0\webApi.deps.json
 C:\Users\GSI\Desktop\BookStore\webApi\bin\Debug\net5.0\webApi.runtimeconfig.json
 C:\Users\GSI\Desktop\BookStore\webApi\bin\Debug\net5.0\webApi.runtimeconfig.dev.json
 C:\Users\GSI\Desktop\BookStore\webApi\bin\Debug\net5.0\webApi.dll
-C:\Users\GSI\Desktop\BookStore\webApi\bin\Debug\net5.0\ref\webApi.dll
 C:\Users\GSI\Desktop\BookStore\webApi\bin\Debug\net5.0\webApi.pdb
 C:\Users\GSI\Desktop\BookStore\webApi\bin\Debug\net5.0\Microsoft.OpenApi.dll
 C:\Users\GSI\Desktop\BookStore\webApi\bin\Debug\net5.0\Swashbuckle.AspNetCore.Swagger.dll
@@ -19,7 +18,6 @@ C:\Users\GSI\Desktop\BookStore\webApi\obj\Debug\net5.0\webApi.csproj.CoreCompile
 C:\Users\GSI\Desktop\BookStore\webApi\obj\Debug\net5.0\webApi.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\GSI\Desktop\BookStore\webApi\obj\Debug\net5.0\webApi.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\GSI\Desktop\BookStore\webApi\obj\Debug\net5.0\staticwebassets\webApi.StaticWebAssets.Manifest.cache
-C:\Users\GSI\Desktop\BookStore\webApi\obj\Debug\net5.0\staticwebassets\webApi.StaticWebAssets.xml
 C:\Users\GSI\Desktop\BookStore\webApi\obj\Debug\net5.0\scopedcss\bundle\webApi.styles.css
 C:\Users\GSI\Desktop\BookStore\webApi\obj\Debug\net5.0\webApi.RazorTargetAssemblyInfo.cache
 C:\Users\GSI\Desktop\BookStore\webApi\obj\Debug\net5.0\webApi.csproj.CopyComplete
@@ -35,3 +33,6 @@ C:\Users\GSI\Desktop\BookStore\webApi\bin\Debug\net5.0\System.Diagnostics.Diagno
 C:\Users\GSI\Desktop\BookStore\webApi\bin\Debug\net5.0\AutoMapper.dll
 C:\Users\GSI\Desktop\BookStore\webApi\bin\Debug\net5.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
 C:\Users\GSI\Desktop\BookStore\webApi\bin\Debug\net5.0\FluentValidation.dll
+C:\Users\GSI\Desktop\BookStore\webApi\bin\Debug\net5.0\ref\webApi.dll
+C:\Users\GSI\Desktop\BookStore\webApi\obj\Debug\net5.0\staticwebassets\webApi.StaticWebAssets.xml
+C:\Users\GSI\Desktop\BookStore\webApi\bin\Debug\net5.0\Newtonsoft.Json.dll
