@@ -3,7 +3,7 @@ using System.Linq;
 using FluentValidation;
 using webApi.DBOperations;
 
-namespace WebApi.BookOperations.UpdateBook
+namespace WebApi.Application.BookOperations.Commands.UpdateBook
 {
     public class UpdateBookCommandValidator : AbstractValidator<UpdateBookCommand>
     {

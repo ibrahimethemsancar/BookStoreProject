@@ -1,18 +1,16 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
 using AutoMapper;
 using FluentValidation;
 using FluentValidation.Results;
 using Microsoft.AspNetCore.Mvc;
-using webApi.BookOperations.CreateBook;
+using webApi.Application.BookOperations.Commands.CreateBook;
 using webApi.DBOperations;
-using WebApi.BookOperations.CreateBook;
-using WebApi.BookOperations.DeleteBook;
-using WebApi.BookOperations.GetBooks;
-using WebApi.BookOperations.UpdateBook;
+using WebApi.Application.BookOperations.Commands.CreateBook;
+using WebApi.Application.BookOperations.Commands.DeleteBook;
+using WebApi.Application.BookOperations.Commands.UpdateBook;
+using WebApi.Application.BookOperations.Queries.GetBook;
+using WebApi.Application.BookOperations.Queries.GetBooks;
 
-namespace WebApi.AddControllers
+namespace WebApi.Controllers
 {
     [ApiController]
     [Route("[controller]s")]

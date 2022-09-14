@@ -1,5 +1,6 @@
 using Microsoft.EntityFrameworkCore;
-using WebApi;
+using webApi.Entities;
+using WebApi.Entities;
 
 namespace webApi.DBOperations
 {
@@ -10,5 +11,7 @@ namespace webApi.DBOperations
 
         }
         public DbSet<Book> Books {get;set;}
+        public DbSet<Genre> Genres {get;set;}
+
     }
 }

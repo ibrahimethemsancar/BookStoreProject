@@ -4,7 +4,7 @@ using System.Reflection.Metadata;
 using FluentValidation;
 using webApi.DBOperations;
 
-namespace WebApi.BookOperations.DeleteBook
+namespace WebApi.Application.BookOperations.Commands.DeleteBook
 {
     public class DeleteBookCommandValidator : AbstractValidator<DeleteBookCommand>
     {
